@@ -222,6 +222,3 @@ Our robot body relies on readily available hobby electronics. We provide links f
 10. Connect the power cables to Vin (Micro JST PH 2.0 connector) of the PCB.
 11. Follow steps 21-23 from the DIY option.
 
-## Next
-
-Flash the [Arduino Firmware](../../firmware/README.md)
