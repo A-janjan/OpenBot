@@ -2,10 +2,10 @@
 <h1 align="center"><a>Turning Smartphones into Robots</a></h1>
 
 
+🤖 I use <a href="https://github.com/isl-org/OpenBot">OpenBot Project</a> for my final BSc project. (thanks to all OpenBot project contributors)
 
 
-
-OpenBot leverages smartphones as brains for low-cost robots. We have designed a small electric vehicle that costs about $50 and serves as a robot body. Our software stack for Android smartphones supports advanced robotics workloads such as person following and real-time autonomous navigation.
+⚡️ OpenBot leverages smartphones as brains for low-cost robots. This project has a small electric vehicle that costs about $50 and serves as a robot body. software stack for Android smartphones supports advanced robotics workloads such as person following and real-time autonomous navigation.
 
 
 
