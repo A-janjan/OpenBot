@@ -23,3 +23,11 @@ Note : Download the [dataset](https://github.com/SullyChen/driving-datasets) and
 
 
 To visualize training using Tensorboard use `tensorboard --logdir=./logs`, then open http://0.0.0.0:6006/ into your web browser.
+
+# See activations
+
+You can see activation of pilotnet layers with executing `python show_activation.py`.
+
+example:
+
+![activation_show](https://github.com/A-janjan/OpenBot/assets/62621376/f603c8a1-eaa0-469a-bc4c-3e2ddfb79905)
