@@ -1,5 +1,5 @@
 # Autopilot-TensorFlow
-A TensorFlow implementation of this [Nvidia paper](https://arxiv.org/pdf/1604.07316.pdf) with some changes. (thanks to [Sully Chen])(https://github.com/SullyChen/)
+A TensorFlow implementation of this [Nvidia paper](https://arxiv.org/pdf/1604.07316.pdf) with some changes. (thanks to (Sully Chen)[https://github.com/SullyChen/])
 
 # IMPORTANT
 Absolutely, under NO circumstance, should one ever pilot a car using computer vision software trained with this code (or any home made software for that matter). It is extremely dangerous to use your own self-driving software in a car, even if you think you know what you're doing, not to mention it is quite illegal in most places and any accidents will land you in huge lawsuits.
