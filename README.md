@@ -13,3 +13,19 @@
 <a href="https://www.openbot.org//" target="_blank">
   <img align="center" alt="Footer" width="100%" src="docs/images/footer.gif" />
 </a>
+
+
+***
+## Imitation Learning with NVIDIA End-to-End Learning Implementation
+
+
+This repository contains code implementing imitation learning, with a focus on replicating aspects of the [NVIDIA paper on end-to-end learning for self-driving cars](https://arxiv.org/pdf/1604.07316.pdf). The main idea behind this codebase is to explore imitation learning techniques and apply them within the context of autonomous vehicle control.
+
+The NVIDIA paper provides a comprehensive approach to training deep neural networks to directly predict vehicle control commands from raw input data, such as camera images. By replicating some aspects of this paper's implementation, we aim to understand and experiment with the effectiveness of end-to-end learning in various imitation learning scenarios.
+
+Feel free to explore the code and experiment with different models and datasets to gain insights into imitation learning and its applications in autonomous driving.
+
+
+## Test PilotNet on the Tehran environment
+
+![output_newx](https://github.com/A-janjan/OpenBot/assets/62621376/af744cfc-f091-42a0-86ce-bdf8f6180404)
