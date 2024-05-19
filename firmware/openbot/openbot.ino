@@ -1200,6 +1200,7 @@ void coast_right_motors_mtv() {
 #else
 
 void update_left_motors() {
+  
   if (ctrl_left < 0) {
     analogWrite(PIN_PWM_L1, -ctrl_left);
     analogWrite(PIN_PWM_L2, 0);
@@ -1358,6 +1359,19 @@ void process_ctrl_msg() {
   char *tmp;                    // this is used by strtok() as an index
   tmp = strtok(msg_buf, ",:");  // replace delimiter with \0
   ctrl_left = atoi(tmp);        // convert to int
+  // fix l298n bugs and bias ///////////////////////////
+  if(ctrl_left<0){
+    ctrl_left -= 10;
+    if(ctrl_left<-255){
+      ctrl_left=-255;
+    }
+  } else if (ctrl_left>0){
+    ctrl_left += 10;
+    if(ctrl_left>255){
+      ctrl_left=255;
+    }
+  }
+  ///////////////////////////////////////////////////////
   tmp = strtok(NULL, ",:");     // continues where the previous call left off
   ctrl_right = atoi(tmp);       // convert to int
 #if DEBUG
